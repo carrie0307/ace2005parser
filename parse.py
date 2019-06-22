@@ -70,6 +70,7 @@ def parse_file(filename, apf_filename):
             event_type, event_subtype = event.attrib["TYPE"], event.attrib["SUBTYPE"]
             # 构建事件相关信息
             for event_mention in event.iter(tag='event_mention'):
+                
                 # 每遇到一个event_mention,则将上一个event_mention加入列表
                 if event_dict:
                     event_list.append(event_dict)
@@ -123,17 +124,17 @@ def parse_file(filename, apf_filename):
     if event_dict:
         # 最后一次无法进入循环，添加上最后一次的event_mention内容
         event_list.append(event_dict)
-    
+
     # 将解析后结果写入json文件
-    write_filename = filename[:filename.find(".apf.xml")]
-    with open(json_path + write_filename+".json", "a", encoding='utf-8') as f:
-        f.write('[')
-        for i,event_mention in enumerate(event_list):
-            if i != len(event_list)-1:
-                f.write(json.dumps(event_mention)+",\n")
-            else:
-                f.write(json.dumps(event_mention))
-        f.write(']')
+    # write_filename = filename[:filename.find(".apf.xml")]
+    # with open(json_path + write_filename+".json", "a", encoding='utf-8') as f:
+    #     f.write('[')
+    #     for i,event_mention in enumerate(event_list):
+    #         if i != len(event_list)-1:
+    #             f.write(json.dumps(event_mention)+",\n")
+    #         else:
+    #             f.write(json.dumps(event_mention))
+    #     f.write(']')
 
 
 def load_file(filename):
@@ -145,21 +146,28 @@ def load_file(filename):
     print ("count: ", count)
 
 
-for path in ['D:/ACE/LDC2006T06/data/English/bc/timex2norm/','D:/ACE/LDC2006T06/data/English/bn/timex2norm/',
-             'D:/ACE/LDC2006T06/data/English/cts/timex2norm/','D:/ACE/LDC2006T06/data/English/nw/timex2norm/',
-             'D:/ACE/LDC2006T06/data/English/un/timex2norm/','D:/ACE/LDC2006T06/data/English/wl/timex2norm/']:
-    filelist = os.listdir(path)
-    total = len(filelist)
-    for i,filename in enumerate(filelist):
-        print ("{i} / {total} running ...".format(i=(i+1)//4 + 1, total=total//4))
-        if filename.endswith("apf.xml"):
-            apf_filename = path + filename
-            parse_file(filename, apf_filename)
+# for path in ['D:/ACE/LDC2006T06/data/English/bc/timex2norm/','D:/ACE/LDC2006T06/data/English/bn/timex2norm/',
+#              'D:/ACE/LDC2006T06/data/English/cts/timex2norm/','D:/ACE/LDC2006T06/data/English/nw/timex2norm/',
+#              'D:/ACE/LDC2006T06/data/English/un/timex2norm/','D:/ACE/LDC2006T06/data/English/wl/timex2norm/']:
+#     filelist = os.listdir(path)
+#     total = len(filelist)
+#     for i,filename in enumerate(filelist):
+#         print ("{i} / {total} running ...".format(i=(i+1)//4 + 1, total=total//4))
+#         if filename.endswith("apf.xml"):
+#             apf_filename = path + filename
+#             parse_file(filename, apf_filename)
        
 # 14,840 sentences + 863 sentences + 672 sentences = 16375 sentences
 
 
 # parse_file("CNN_CF_20030303.1900.02.apf.xml")
+total = 0
+filelist = os.listdir("D:/ACE/event_json/")
+for filename in filelist:
+    with open("D:/ACE/anno_event_json/" + filename, "r", encoding='utf-8') as load_f:
+        event_list = json.load(load_f)
+        total += len(event_list)
+print ("total: ", total)
 
 
 

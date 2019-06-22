@@ -7,7 +7,7 @@ import xml.etree.cElementTree as ET
 """
 
 ini_anno_path = "D:/ACE/anno_event_json/"
-new_anno_path = "D:/ACE/anno_event_json2/"
+new_anno_path = "D:/ACE/anno_event_json3/"
 
 
 
@@ -102,25 +102,26 @@ def add_bio2anno(filename, apf_filename, anno_filename):
             if i != len(event_list)-1:
                 writer.write("},\n") # 一个事件结束
             else:
-                writer.write("}]")
+                writer.write("}")
+        writer.write("]")
 
-add_bio2anno("CNN_ENG_20030617_193116.10", "D:/ACE/LDC2006T06/data/English/bn/timex2norm/CNN_ENG_20030617_193116.10.apf.xml", "D:/ACE/anno_event_json/CNN_ENG_20030617_193116.10.json")
+# add_bio2anno("CNN_ENG_20030617_193116.10", "D:/ACE/LDC2006T06/data/English/bn/timex2norm/CNN_ENG_20030617_193116.10.apf.xml", "D:/ACE/anno_event_json/CNN_ENG_20030617_193116.10.json")
 
-# for path in ['D:/ACE/LDC2006T06/data/English/bc/timex2norm/','D:/ACE/LDC2006T06/data/English/bn/timex2norm/',
-#              'D:/ACE/LDC2006T06/data/English/cts/timex2norm/','D:/ACE/LDC2006T06/data/English/nw/timex2norm/',
-#              'D:/ACE/LDC2006T06/data/English/un/timex2norm/','D:/ACE/LDC2006T06/data/English/wl/timex2norm/']:
-#     filelist = os.listdir(path)
-#     total = len(filelist)
-#     for i,filename in enumerate(filelist):
-#         if filename.endswith(".apf.xml"):
-#             apf_filename = path + filename
-#             anno_filename = ini_anno_path + filename.replace(".apf.xml", ".json")
-#             filename = filename[:filename.find(".apf.xml")]
-#             print ("{i} / {total} {filename}  running ...".format(i=(i+1)//4+1, total=total//4,filename=filename))
-#             try:
-#                 add_bio2anno(filename, apf_filename, anno_filename)
-#             except:
-#                 print ("==============")
-#                 print (filename)
-#                 print ("==============")
+for path in ['D:/ACE/LDC2006T06/data/English/bc/timex2norm/','D:/ACE/LDC2006T06/data/English/bn/timex2norm/',
+             'D:/ACE/LDC2006T06/data/English/cts/timex2norm/','D:/ACE/LDC2006T06/data/English/nw/timex2norm/',
+             'D:/ACE/LDC2006T06/data/English/un/timex2norm/','D:/ACE/LDC2006T06/data/English/wl/timex2norm/']:
+    filelist = os.listdir(path)
+    total = len(filelist)
+    for i,filename in enumerate(filelist):
+        if filename.endswith(".apf.xml"):
+            apf_filename = path + filename
+            anno_filename = ini_anno_path + filename.replace(".apf.xml", ".json")
+            filename = filename[:filename.find(".apf.xml")]
+            print ("{i} / {total} {filename}  running ...".format(i=(i+1)//4+1, total=total//4,filename=filename))
+            try:
+                add_bio2anno(filename, apf_filename, anno_filename)
+            except:
+                print ("==============")
+                print (filename)
+                print ("==============")
 
