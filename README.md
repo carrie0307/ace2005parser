@@ -29,6 +29,27 @@ https://stanfordnlp.github.io/CoreNLP/history.html
 
 给./anno_event_json中的标注结果添加上BIO标注信息(根据.apf.xml中的entity,value和time进行BIO标注), 结果写入./anno_event_json_final/目录下。
 
+注意，部分sentence中不包括LDC所标注的entity/value/time,因此这些sentence的字典中没有'bio'一项，例如
+```
+{"article_id":"AFP_ENG_20030304.0250",
+"event_id":"AFP_ENG_20030304.0250-EV5-1",
+"event_type":"Conflict",
+"event_subtype":"Attack",
+"sentence_id":-7493870223321462845,
+"sentence":"There were no reports of injuries in the second blast.",
+"sentence_start":862,
+"sentence_end":916,
+"tokens":["There", "were", "no", "reports", "of", "injuries", "in", "the", "second", "blast", "."],
+"pos":[["There", "EX"], ["were", "VBD"], ["no", "DT"], ["reports", "NNS"], ["of", "IN"], ["injuries", "NNS"], ["in", "IN"], ["the", "DT"], ["second", "JJ"], ["blast", "NN"], [".", "."]],
+"ner":[["There", "O"], ["were", "O"], ["no", "O"], ["reports", "O"], ["of", "O"], ["injuries", "O"], ["in", "O"], ["the", "O"], ["second", "ORDINAL"], ["blast", "O"], [".", "O"]],
+"dependency":[["ROOT", 0, 2], ["expl", 2, 1], ["neg", 4, 3], ["nsubj", 2, 4], ["case", 6, 5], ["nmod", 4, 6], ["case", 10, 7], ["det", 10, 8], ["amod", 10, 9], ["nmod", 2, 10], ["punct", 2, 11]],
+"trigger":"blast",
+"trigger_start":"910",
+"trigger_end":"914",
+"arguments":[],
+"tokens_offset":[[862, 866], [868, 871], [873, 874], [876, 882], [884, 885], [887, 894], [896, 897], [899, 901], [903, 908], [910, 914], [915, 915]]}
+```
+
 ### 数据样例
 
 见./example/目录下
