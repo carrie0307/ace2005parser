@@ -7,7 +7,7 @@ import xml.etree.cElementTree as ET
 """
 
 ini_anno_path = "D:/ACE/anno_event_json/"
-new_anno_path = "D:/ACE/anno_event_json3/"
+new_anno_path = "D:/ACE/anno_event_json2/"
 
 
 

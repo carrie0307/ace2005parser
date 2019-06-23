@@ -1,0 +1,45 @@
+
+从StandCoreNLP标注提取出的tags:
+['IN', ':', "''", 'VBZ', 'FW', 'NNP', 'PDT', 'WDT', 'MD', 'CD', 'WP$', 'RB', 'TO', ',', '``', 'RBS', 'LS', 'RBR', 'WRB', 'VBD', 'NN', 'JJS', 'DT', 'VBP', '-RRB-', 'NNS', 'POS', 'JJR', 'PRP', 'SYM', 'VB', 'VBN', '-LRB-', 'WP', 'NNPS', '$', '.', 'PRP$', 'UH', 'CC', '#', 'VBG', 'RP', 'EX', 'JJ']
+
+词性说明的参考链接：https://blog.csdn.net/qq_36652619/article/details/77252497
+
+Trigger candidates: noun + verb + adj
+
+    noun:
+    NNP,NN,NNS,NNPS (NT是包含在内了吗???)
+
+    verb:
+    VB,VBD,VBG,VBN,VBP,VBZ
+
+    27.     VB     Verb, base form 动词基本形式
+
+    28.     VBD     Verb, past tense 动词过去式
+
+    29.     VBG     Verb, gerund or present participle 动名词和现在分词
+
+    30.     VBN     Verb, past participle 过去分词
+
+    31.     VBP     Verb, non-3rd person singular present 动词非第三人称单数
+
+    32.     VBZ     Verb, 3rd person singular present 动词第三人称单数
+
+
+    adj:
+    JJS,JJR, JJS
+    7.     JJ     Adjective 形容词或序数词
+
+    8.     JJR     Adjective, comparative 形容词比较级
+
+    9.     JJS     Adjective, superlative 形容词最高级
+
+
+
+
+
+argument candidates:
+
+noun(普通noun+时间noun[NT]???)
+要不要考虑BIO?
+
+

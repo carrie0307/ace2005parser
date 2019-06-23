@@ -1,4 +1,4 @@
-# ACE2005事件抽取数据预处理
+﻿# ACE2005事件抽取数据预处理
 
 ACE2005事件抽取数据预处理工作是指，根据原始的.apf.xml和.sgm文件，提取与事件有关的要素(sentence,trigger,argument及trigger和argument在原文中的offset)，并通过StandfordCoreNLP对sentence进行词性和句法依赖解析，根据.apf.xml文件中的entity、value和timex2对句子进行"BIO"的类型标注，最终将结果以json形式写入。
 
@@ -49,5 +49,6 @@ https://stanfordnlp.github.io/CoreNLP/history.html
 
 以上是数据处理过程，欢迎大家使用，如有问题请与我联系747100368@qq.com。
 
+事件总量: 5349
 
 2019.06.21
