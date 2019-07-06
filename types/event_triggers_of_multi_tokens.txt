@@ -1,0 +1,236 @@
+CNN_CF_20030303.1900.00.apf.xml lost t
+CNN_CF_20030303.1900.05.apf.xml Civil War
+CNN_CF_20030303.1900.05.apf.xml Civil War
+CNN_CF_20030303.1900.05.apf.xml War World II
+CNN_CF_20030304.1900.02.apf.xml thrown out
+CNN_CF_20030304.1900.04.apf.xml put in power
+CNN_IP_20030328.1600.07.apf.xml shooting down
+CNN_IP_20030328.1600.07.apf.xml shot down
+CNN_IP_20030329.1600.00-2.apf.xml head over
+CNN_IP_20030329.1600.00-3.apf.xml 300 sorties
+CNN_IP_20030329.1600.00-3.apf.xml 1500 sorties
+CNN_IP_20030329.1600.00-3.apf.xml those sorties
+CNN_IP_20030329.1600.00-3.apf.xml strike sorties
+CNN_IP_20030329.1600.00-4.apf.xml take those out
+CNN_IP_20030329.1600.00-5.apf.xml open fire
+CNN_IP_20030329.1600.00-5.apf.xml pot shot
+CNN_IP_20030329.1600.00-5.apf.xml flown out
+CNN_IP_20030329.1600.01-1.apf.xml going across
+CNN_IP_20030329.1600.01-3.apf.xml showing up
+CNN_IP_20030329.1600.01-3.apf.xml held up
+CNN_IP_20030329.1600.01-3.apf.xml taking to
+CNN_IP_20030330.1600.05-2.apf.xml shot at
+CNN_IP_20030330.1600.06.apf.xml the one
+CNN_IP_20030402.1600.00-1.apf.xml pushed onward
+CNN_IP_20030402.1600.00-1.apf.xml pushed forward
+CNN_IP_20030402.1600.00-1.apf.xml punched through
+CNN_IP_20030402.1600.00-2.apf.xml close in
+CNN_IP_20030402.1600.00-4.apf.xml set up
+CNN_IP_20030402.1600.00-4.apf.xml rose up
+CNN_IP_20030402.1600.02-2.apf.xml taken over
+CNN_IP_20030402.1600.02-2.apf.xml took over
+CNN_IP_20030402.1600.02-2.apf.xml taken control
+CNN_IP_20030403.1600.00-1.apf.xml close in
+CNN_IP_20030403.1600.00-1.apf.xml moved in
+CNN_IP_20030403.1600.00-2.apf.xml broken bones
+CNN_IP_20030403.1600.00-3.apf.xml get inside
+CNN_IP_20030403.1600.00-3.apf.xml shot at
+CNN_IP_20030403.1600.00-3.apf.xml moving toward
+CNN_IP_20030403.1600.00-3.apf.xml withdrawn into
+CNN_IP_20030404.1600.00-1.apf.xml moved in
+CNN_IP_20030404.1600.00-2.apf.xml paid that price
+CNN_IP_20030404.1600.00-2.apf.xml driven back
+CNN_IP_20030405.1600.00-2.apf.xml push ahead
+CNN_IP_20030405.1600.00-2.apf.xml coming into
+CNN_IP_20030405.1600.00-2.apf.xml have been to
+CNN_IP_20030405.1600.00-2.apf.xml coming in
+CNN_IP_20030405.1600.00-2.apf.xml sent over
+CNN_IP_20030405.1600.00-2.apf.xml were taken
+CNN_IP_20030405.1600.00-2.apf.xml go inside
+CNN_IP_20030405.1600.00-2.apf.xml push ahead
+CNN_IP_20030405.1600.00-3.apf.xml bitten the dust
+CNN_IP_20030405.1600.01-1.apf.xml air strikes
+CNN_IP_20030405.1600.02.apf.xml take out
+CNN_IP_20030405.1600.02.apf.xml continue on
+CNN_IP_20030406.1600.03.apf.xml opened up
+CNN_IP_20030406.1600.03.apf.xml going off
+CNN_IP_20030408.1600.04.apf.xml World War II
+CNN_IP_20030408.1600.04.apf.xml heading back
+CNN_IP_20030409.1600.02.apf.xml Desert Storm
+CNN_IP_20030409.1600.02.apf.xml walked out
+CNN_IP_20030417.1600.06.apf.xml Operation Iraqi Freedom
+CNN_LE_20030504.1200.01.apf.xml coming back
+CNN_LE_20030504.1200.01.apf.xml come back
+CNNHL_ENG_20030312_150218.13.apf.xml put to death
+CNNHL_ENG_20030402_133449.22.apf.xml take down
+CNNHL_ENG_20030403_193455.30.apf.xml fend off
+CNNHL_ENG_20030604_230238.5.apf.xml stepping down
+CNNHL_ENG_20030604_230238.5.apf.xml stepping aside
+CNNHL_ENG_20030616_230155.28.apf.xml end up
+CNNHL_ENG_20030618_230303.6.apf.xml assault w
+CNNHL_ENG_20030624_133331.33.apf.xml the phone
+CNN_ENG_20030328_150609.10.apf.xml head out
+CNN_ENG_20030331_193655.14.apf.xml kicked out
+CNN_ENG_20030331_193655.14.apf.xml kicked out
+CNN_ENG_20030407_130604.10.apf.xml sitting down
+CNN_ENG_20030407_130604.10.apf.xml getting into
+CNN_ENG_20030408_123613.0.apf.xml shot down
+CNN_ENG_20030408_123613.0.apf.xml e war
+CNN_ENG_20030408_153616.9.apf.xml shot down
+CNN_ENG_20030408_200618.14.apf.xml brought back
+CNN_ENG_20030414_130735.7.apf.xml went down
+CNN_ENG_20030416_100042.7.apf.xml chapter 11
+CNN_ENG_20030421_120508.13.apf.xml is no more
+CNN_ENG_20030422_213527.4.apf.xml get into
+CNN_ENG_20030422_213527.4.apf.xml show up
+CNN_ENG_20030422_213527.4.apf.xml showed up
+CNN_ENG_20030422_213527.4.apf.xml came across
+CNN_ENG_20030422_213527.4.apf.xml run into
+CNN_ENG_20030424_070008.15.apf.xml going down
+CNN_ENG_20030425_133605.6.apf.xml death penalty
+CNN_ENG_20030426_160621.0.apf.xml meet up
+CNN_ENG_20030502_080020.7.apf.xml picked up
+CNN_ENG_20030506_160524.18.apf.xml live fire exchange
+CNN_ENG_20030507_160538.15.apf.xml taking out
+CNN_ENG_20030513_160506.16.apf.xml death penalty
+CNN_ENG_20030524_143511.4.apf.xml tie the knot
+CNN_ENG_20030525_160525.13.apf.xml stepped doup
+CNN_ENG_20030525_160525.13.apf.xml stepped down
+CNN_ENG_20030525_160525.13.apf.xml teped down
+CNN_ENG_20030602_102826.13.apf.xml gunned down
+CNN_ENG_20030605_065831.18.apf.xml hear from
+CNN_ENG_20030607_170312.6.apf.xml sat down
+CNN_ENG_20030610_123040.9.apf.xml critical condition
+CNN_ENG_20030612_160005.13.apf.xml step down
+CNN_ENG_20030612_173004.10.apf.xml world war ii
+CNN_ENG_20030614_173123.4.apf.xml set up
+CNN_ENG_20030619_115954.10.apf.xml taken into custody
+CNN_ENG_20030619_115954.10.apf.xml blow up
+CNN_ENG_20030619_115954.10.apf.xml pled guilty
+CNN_ENG_20030619_115954.10.apf.xml pled guilty
+CNN_ENG_20030620_085840.7.apf.xml raping and drugging
+CNN_ENG_20030624_082841.12.apf.xml hands on
+CNN_ENG_20030624_082841.12.apf.xml loss of life
+CNN_ENG_20030624_082841.12.apf.xml september 11th
+CNN_ENG_20030624_082841.12.apf.xml september 11th
+CNN_ENG_20030625_220123.3.apf.xml give birth
+CNN_ENG_20030625_220123.3.apf.xml gives birth
+CNN_ENG_20030627_130145.6.apf.xml lies in state
+CNN_ENG_20030630_075848.7.apf.xml stepped down
+CNN_ENG_20030630_075848.7.apf.xml charges of widespread child sexual abuse in
+fsh_29139.apf.xml paid out
+fsh_29187.apf.xml nine eleven
+fsh_29187.apf.xml nine eleven
+fsh_29187.apf.xml nine eleven
+fsh_29187.apf.xml nine eleven
+fsh_29191.apf.xml step down
+fsh_29191.apf.xml step down
+fsh_29191.apf.xml took down
+fsh_29192.apf.xml step into
+fsh_29192.apf.xml used to be
+fsh_29195.apf.xml nine eleven
+fsh_29195.apf.xml nine eleven
+fsh_29195.apf.xml nine eleven
+fsh_29195.apf.xml nine eleven
+fsh_29226.apf.xml not found
+fsh_29361.apf.xml sit down
+fsh_29521.apf.xml got back
+fsh_29586.apf.xml sit down
+fsh_29592.apf.xml World War Two
+fsh_29601.apf.xml air strike
+fsh_29601.apf.xml go off
+fsh_29628.apf.xml coming back
+fsh_29628.apf.xml laid off
+fsh_29628.apf.xml laid off
+fsh_29770.apf.xml get to
+fsh_29782_2.apf.xml come back
+fsh_29783.apf.xml go back
+fsh_29783.apf.xml get out
+fsh_29783.apf.xml got back
+fsh_29786.apf.xml set up
+fsh_29786.apf.xml getting through
+AFP_ENG_20030319.0879.apf.xml took on
+AFP_ENG_20030323.0020.apf.xml turned out
+AFP_ENG_20030323.0020.apf.xml turning out
+AFP_ENG_20030327.0224.apf.xml bring in
+AFP_ENG_20030401.0476.apf.xml steps down
+AFP_ENG_20030429.0007.apf.xml took office
+AFP_ENG_20030504.0248.apf.xml stepped down
+AFP_ENG_20030509.0345.apf.xml set up
+AFP_ENG_20030514.0706.apf.xml took office
+AFP_ENG_20030625.0057.apf.xml take over
+AFP_ENG_20030625.0057.apf.xml take over
+APW_ENG_20030304.0555.apf.xml aid package
+APW_ENG_20030306.0191.apf.xml swept out of power
+APW_ENG_20030310.0719.apf.xml buying out
+APW_ENG_20030318.0689.apf.xml dip into
+APW_ENG_20030318.0689.apf.xml be out
+APW_ENG_20030319.0545.apf.xml step down
+APW_ENG_20030319.0545.apf.xml step aside
+APW_ENG_20030322.0119.apf.xml wiped out
+APW_ENG_20030322.0119.apf.xml smash through
+APW_ENG_20030403.0862.apf.xml shot down
+APW_ENG_20030403.0862.apf.xml mowed down
+APW_ENG_20030403.0862.apf.xml put in place
+APW_ENG_20030403.0862.apf.xml begin work
+APW_ENG_20030403.0862.apf.xml closed in
+APW_ENG_20030406.0191.apf.xml set up
+APW_ENG_20030407.0030.apf.xml is over
+APW_ENG_20030409.0013.apf.xml shot down
+APW_ENG_20030409.0013.apf.xml shot down
+APW_ENG_20030410.0906.apf.xml provided money
+APW_ENG_20030411.0304.apf.xml came to
+APW_ENG_20030422.0469.apf.xml went back
+APW_ENG_20030513.0139.apf.xml bound for
+APW_ENG_20030519.0367.apf.xml setting up
+APW_ENG_20030519.0367.apf.xml go off
+APW_ENG_20030610.0554.apf.xml lifted off
+NYT_ENG_20030403.0008.apf.xml punched through
+NYT_ENG_20030602.0074.apf.xml takes over
+NYT_ENG_20030602.0074.apf.xml taking over
+XIN_ENG_20030609.0118.apf.xml took over
+XIN_ENG_20030609.0118.apf.xml came into power
+XIN_ENG_20030609.0118.apf.xml give up
+alt.obituaries_20041121.1339.apf.xml get rid of
+aus.cars_20041206.0903.apf.xml locked up
+misc.legal.moderated_20041202.1648.apf.xml hauled back
+misc.legal.moderated_20050129.2225.apf.xml get out
+misc.survivalism_20050210.0232.apf.xml shutting down
+misc.survivalism_20050210.0232.apf.xml take out
+misc.survivalism_20050210.0232.apf.xml go off
+misc.survivalism_20050210.0232.apf.xml goes off
+rec.arts.sf.written.robert-jordan_20050208.1350.apf.xml get out
+rec.arts.sf.written.robert-jordan_20050208.1350.apf.xml put away
+rec.arts.sf.written.robert-jordan_20050208.1350.apf.xml go back
+rec.games.chess.politics_20041216.1047.apf.xml let go
+rec.games.chess.politics_20041217.2111.apf.xml steps down
+rec.music.phish_20041215.1554.apf.xml Sept. 11
+rec.travel.europe_20050101.1800.apf.xml got back
+rec.travel.europe_20050101.1800.apf.xml ended up
+soc.culture.hmong_20050210.1130.apf.xml Miao Rebellions
+soc.culture.iraq_20050211.0445.apf.xml close down
+AGGRESSIVEVOICEDAILY_20041101.1806.apf.xml came to power
+AGGRESSIVEVOICEDAILY_20041208.2133.apf.xml blown up
+AGGRESSIVEVOICEDAILY_20041218.1004.apf.xml cut out
+AGGRESSIVEVOICEDAILY_20050213.2123.apf.xml opened fire
+AGGRESSIVEVOICEDAILY_20050213.2123.apf.xml target practice
+AGGRESSIVEVOICEDAILY_20050224.2252.apf.xml took out
+AGGRESSIVEVOICEDAILY_20050224.2252.apf.xml gunned down
+AGGRESSIVEVOICEDAILY_20050224.2252.apf.xml walk free
+FLOPPINGACES_20041113.1528.042.apf.xml signed over
+FLOPPINGACES_20041113.1528.042.apf.xml sign over
+FLOPPINGACES_20041117.2002.024.apf.xml chopping off
+FLOPPINGACES_20041117.2002.024.apf.xml blowing up
+FLOPPINGACES_20041228.0927.010.apf.xml brutality or intimidation
+FLOPPINGACES_20041230.1844.003.apf.xml pick up
+FLOPPINGACES_20050203.1953.038.apf.xml taking money
+FLOPPINGACES_20050217.1237.014.apf.xml raising money
+HEALINGIRAQ_20041108.1942.05.apf.xml pouring out
+MARKETVIEW_20041209.1401.apf.xml gets out
+MARKETVIEW_20041209.1401.apf.xml doing time
+MARKETVIEW_20041209.1401.apf.xml coming over
+MARKETVIEW_20041212.1447.apf.xml buy out
+MARKETVIEW_20041213.0722.apf.xml tying the knot
+MARKETVIEW_20050206.2009.apf.xml buying out
+OIADVANTAGE_20050204.1155.apf.xml taking over
+235

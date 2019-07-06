@@ -68,7 +68,7 @@ https://stanfordnlp.github.io/CoreNLP/history.html
 
 ---
 
-以上是数据处理过程，欢迎大家使用，如有问题请与我联系747100368@qq.com。
+以上是数据处理过程，欢迎大家使用。
 
 事件总量: 5349
 
