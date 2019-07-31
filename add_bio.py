@@ -4,6 +4,8 @@ import xml.etree.cElementTree as ET
 
 """
     对Standford标注好的数据(./event_anno_json/XXX.json)加上根据.apf.xml中标注的entity、value和Time进行BIO标注
+
+    存在的一个bug:对于一些entity/time/value都不包含的句子，将会出现没有bio的情况。这里代码不改了，后续添加吧(例如:un/rec.arts.mystery_20050219.1126)
 """
 
 ini_anno_path = "D:/ACE/anno_event_json/"
@@ -36,6 +38,7 @@ def add_bio2anno(filename, apf_filename, anno_filename):
                 head_start, head_end, head_text = int(entity_mention[1][0].attrib["START"]), int(entity_mention[1][0].attrib["END"]), entity_mention[1][0].text
 
                 for event in event_list:
+
                     if extent_start >= event["sentence_start"] and extent_end+1 <= event["sentence_end"]:
                         length = len(event["tokens"])
                         if "bio" not in event:
@@ -74,6 +77,7 @@ def add_bio2anno(filename, apf_filename, anno_filename):
                 ttype, subtype = value.attrib["TYPE"], ""
 
             for value_mention in value.iter(tag="value_mention"):
+                
                 extent_start, extent_end = int(value_mention[0][0].attrib["START"]), int(value_mention[0][0].attrib["END"])
                 for event in event_list:
                     if extent_start >= event["sentence_start"] and extent_end+1 <= event["sentence_end"]:
@@ -89,7 +93,12 @@ def add_bio2anno(filename, apf_filename, anno_filename):
                     # print (event["bio"])
                     # print ("\n")
 
+    # for event in event_list:
+    #     if "bio" not in event:
+    #         print (event)
+
     with open(new_anno_path + filename + ".json", "a", encoding='utf-8') as writer:
+        print (new_anno_path+filename)
         writer.write("[")
         for i,event in enumerate(event_list):
             writer.write("{") # 一个事件开始
@@ -105,23 +114,24 @@ def add_bio2anno(filename, apf_filename, anno_filename):
                 writer.write("}")
         writer.write("]")
 
-# add_bio2anno("CNN_ENG_20030617_193116.10", "D:/ACE/LDC2006T06/data/English/bn/timex2norm/CNN_ENG_20030617_193116.10.apf.xml", "D:/ACE/anno_event_json/CNN_ENG_20030617_193116.10.json")
+add_bio2anno("rec.arts.mystery_20050219.1126", "D:/ACE/LDC2006T06/data/English/un/timex2norm/rec.arts.mystery_20050219.1126.apf.xml", "D:/ACE/anno_event_json/rec.arts.mystery_20050219.1126.json")
+# CNN_ENG_20030617_193116.10.json
 
-for path in ['D:/ACE/LDC2006T06/data/English/bc/timex2norm/','D:/ACE/LDC2006T06/data/English/bn/timex2norm/',
-             'D:/ACE/LDC2006T06/data/English/cts/timex2norm/','D:/ACE/LDC2006T06/data/English/nw/timex2norm/',
-             'D:/ACE/LDC2006T06/data/English/un/timex2norm/','D:/ACE/LDC2006T06/data/English/wl/timex2norm/']:
-    filelist = os.listdir(path)
-    total = len(filelist)
-    for i,filename in enumerate(filelist):
-        if filename.endswith(".apf.xml"):
-            apf_filename = path + filename
-            anno_filename = ini_anno_path + filename.replace(".apf.xml", ".json")
-            filename = filename[:filename.find(".apf.xml")]
-            print ("{i} / {total} {filename}  running ...".format(i=(i+1)//4+1, total=total//4,filename=filename))
-            try:
-                add_bio2anno(filename, apf_filename, anno_filename)
-            except:
-                print ("==============")
-                print (filename)
-                print ("==============")
+# for path in ['D:/ACE/LDC2006T06/data/English/bc/timex2norm/','D:/ACE/LDC2006T06/data/English/bn/timex2norm/',
+#              'D:/ACE/LDC2006T06/data/English/cts/timex2norm/','D:/ACE/LDC2006T06/data/English/nw/timex2norm/',
+#              'D:/ACE/LDC2006T06/data/English/un/timex2norm/','D:/ACE/LDC2006T06/data/English/wl/timex2norm/']:
+#     filelist = os.listdir(path)
+#     total = len(filelist)
+#     for i,filename in enumerate(filelist):
+#         if filename.endswith(".apf.xml"):
+#             apf_filename = path + filename
+#             anno_filename = ini_anno_path + filename.replace(".apf.xml", ".json")
+#             filename = filename[:filename.find(".apf.xml")]
+#             print ("{i} / {total} {filename}  running ...".format(i=(i+1)//4+1, total=total//4,filename=filename))
+#             try:
+#                 add_bio2anno(filename, apf_filename, anno_filename)
+#             except:
+#                 print ("==============")
+#                 print (filename)
+#                 print ("==============")
 
