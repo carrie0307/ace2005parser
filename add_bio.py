@@ -5,7 +5,7 @@ import xml.etree.cElementTree as ET
 """
     对Standford标注好的数据(./event_anno_json/XXX.json)加上根据.apf.xml中标注的entity、value和Time进行BIO标注
 
-    存在的一个bug:对于一些entity/time/value都不包含的句子，将会出现没有bio的情况。这里代码不改了，后续添加吧(例如:un/rec.arts.mystery_20050219.1126)
+    存在的一个bug:对于一些entity/time/value都不包含的句子，将会出现没有bio的情况(例如:un/rec.arts.mystery_20050219.1126)。这里代码不改了，进行train/dev/test划分时进行修改
 """
 
 ini_anno_path = "D:/ACE/anno_event_json/"
