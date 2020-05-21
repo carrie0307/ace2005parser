@@ -1,5 +1,7 @@
 ﻿# ACE2005事件抽取数据预处理
 
+* **补充说明: 这份代码只处理了ACE05语料中含有事件的句子，而这在具体的论文实验中是错误的，应当使用全量数据，在此说明。**
+
 ACE2005事件抽取数据预处理工作是指，根据原始的.apf.xml和.sgm文件，提取与事件有关的要素(sentence,trigger,argument及trigger和argument在原文中的offset)，并通过StandfordCoreNLP对sentence进行词性和句法依赖解析，根据.apf.xml文件中的entity、value和timex2对句子进行"BIO"的类型标注，最终将结果以json形式写入。
 
 [2019.08.02更]add_bio.py存在的一个小bug:对于一些entity/time/value都不包含的句子，将会出现没有bio的情况(其他正常的提取没有问题)。这里代码不改了，后续添加吧(例如:un/rec.arts.mystery_20050219.1126)
